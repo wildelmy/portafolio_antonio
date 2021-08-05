@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <link href="style/style.css" rel="stylesheet">
+  <title>Portafolio de Antonio</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light text-white">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon burger"></span>
+      </button>
+      <a class="btn navbar-brand text-white p-2 bg-orange" href="#">Currículum</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item text-orange">
+            <a class="nav-link active" aria-current="page" href="#">Hola</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <section id="welcome-section" class="container-fluid d-flex flex-column flex-md-row-reverse align-items-center">
+      <img class="pt-4 mx-auto d-block " src="img/antonio.png" alt="Antonio">
+      <div>
+        <h1 class="text-center mt-4">
+          ¡Hola a todos! <br> Soy Antonio Pereira
+        </h1>
+        <p class="text-center mt-4">
+          Developer que le encanta implementar diseños que inspiran y atraen a las personas.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="container-fluid mb-3">
+      <h1 class="text-center m-3">Parece magia, funciona con código.</h1>
+      <p class="mb-4">
+        A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e
+        increíbles.
+      </p>
+
+      <div class="row">
+        <div class="col-12 project-container">
+          <img class="img-fluid project-container__img" src="img/mobile/bg.png">
+          <div class="card bg-black project-container__card" style="width: 18rem;">
+            <div class="card-body text-white pt-3">
+              <h5 class="card-title">NIKO</h5>
+              <p class="card-text">
+                Niko es una de las marcas y proveedores de equipamiento deportivo más reconocidas y valiosas en todo el
+                mundo.
+              </p>
+              <div class="project-container__btns">
+                <a href="#" class="btn btn-outline-orange text-orange d-block mb-2">Ver código</a>
+                <a href="#" class="btn btn-orange d-block text-white">Ver proyecto completo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 project-container mb-5">
+          <img class="img-fluid project-container__img" src="img/mobile/bg (2).png">
+          <div class="card bg-black project-container__card" style="width: 18rem;">
+            <div class="card-body text-white pt-3">
+              <h5 class="card-title">Príncipe fresco</h5>
+              <p class="card-text">
+                La serie está protagonizada por Will Smith como una versión ficticia de sí mismo , un callejero.
+                -Adolescente inteligente nacido y criado...
+              </p>
+              <div class="project-container__btns">
+                <a href="#" class="btn btn-outline-orange text-orange d-block mb-2">Ver código</a>
+                <a href="#" class="btn btn-orange d-block text-white">Ver proyecto completo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 project-container">
+          <img class="img-fluid project-container__img" src="img/mobile/bg (3).png">
+          <div class="card bg-black project-container__card" style="width: 18rem;">
+            <div class="card-body text-white pt-3">
+              <h5 class="card-title">Amazonas</h5>
+              <p class="card-text">
+                Amazonas es la empresa en internet de venta al por menor más grande del mundo, donde puedes encontrar
+                prácticamente...
+              </p>
+              <div class="project-container__btns">
+                <a href="#" class="btn btn-outline-orange text-orange d-block mb-2">Ver código</a>
+                <a href="#" class="btn btn-orange d-block text-white">Ver proyecto completo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-container__btns m-5">
+          <a href="#" class="py-2 btn btn-outline-dark ">Ver más proyectos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="container-fluid">
+      <h2 class="m-3" >Servicios</h2>
+      <div class="row">
+        <div class="col-12 col-md-4 mb-4">
+          <strong>Diseño</strong>
+          <ul>
+            <li>Experiencia de usuario</li>
+            <li>Interfaz de usuario</li>
+            <li>Aplicaciones web</li>
+            <li>Prueba de concepto</li>
+          </ul>
+          <a href="#" class="btn bg-black text-orange d-block">Ver servicios de diseño</a>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <strong>Desarrollo</strong>
+          <ul>
+            <li>Aplicaiones móviles</li>
+            <li>Sitios web</li>
+            <li>Aplicaciones web progresivas</li>
+          </ul>
+          <a href="#" class="btn bg-black text-orange d-block">Ver servicios de diseño</a>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <strong>Marca</strong>
+          <ul>
+            <li>Experiencia de usuario</li>
+            <li>Interfaz de usuario</li>
+            <li>Aplicaciones</li>
+            <li>Prueba de concepto</li>
+          </ul>
+          <a href="#" class="btn bg-black text-orange d-block">Ver servicios de diseño</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid bg-black pt-3">
+      <h2 class="text-white">Testimonios</h2>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="card bg-black mx-auto" style="width: 18rem;">
+            <div class="card-body">
+              <div>
+                <img src="img/mobile/Ellipse 1 (1).png" alt="juan-antonio" width="48" height="48">
+                <span class="testimonial-name">Juan Antonio</span>
+              </div>
+              <p class="text-white">
+                Tengo algunos años trabajando con Javascript y aún así aprendí varias cosas importantes de Antonio y
+                como utiliza Javascript en el día a día.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card bg-black mx-auto" style="width: 18rem;">
+            <div class="card-body">
+              <div>
+                <img src="img/mobile/Ellipse 1 (2).png" alt="Albert Flores" width="48" height="48">
+                <span class="testimonial-name">Albert Flores</span>
+              </div>
+              <p class="text-white">
+                Me gusto ver el porqué de las cosas del core de React, saber la magia que ocurre por detrás, excelente
+                profesor Antonio gran vocación.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card bg-black mx-auto" style="width: 18rem;">
+            <div class="card-body">
+              <div>
+                <img src="img/mobile/Ellipse 1 (3).png" alt="Darlene Robertson" width="48" height="48">
+                <span class="testimonial-name">Darlene Robertson</span>
+              </div>
+              <p class="text-white">
+                Ayuda a entender el porqué de las cosas, lo cual nos da el poder de aprovechar mejor el lenguaje y las
+                herramientas que tenemos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card bg-black mx-auto" style="width: 18rem;">
+            <div class="card-body">
+              <div>
+                <img src="img/mobile/Ellipse 1 (4).png" alt="Jane Cooper" width="48" height="48">
+                <span class="testimonial-name">Jane Cooper</span>
+              </div>
+              <p class="text-white">
+                La forma como explica y trabaja los temas Antonio, me ha ayudado a comprender y sacarle el mayor
+                provecho a HTML y CSS.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card bg-black mx-auto" style="width: 18rem;">
+            <div class="card-body">
+              <div>
+                <img src="img/mobile/Ellipse 1 (5).png" alt="Eleanor Pena" width="48" height="48">
+                <span class="testimonial-name">Eleanor Pena</span>
+              </div>
+              <p class="text-white">
+                Antonio ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado
+                6 meses solo les llevó 1,5 meses.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card bg-black mx-auto" style="width: 18rem;">
+            <div class="card-body">
+              <div>
+                <img src="img/mobile/Ellipse 1 (6).png" alt="Guy Hawkinso" width="48" height="48">
+                <span class="testimonial-name">Guy Hawkinso</span>
+              </div>
+              <p class="text-white">
+                Antonio ha superado mis expectativas desde el diseño hasta el desarrollo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="form" class="container-fluid pt-5">
+      <form class="bg-black px-3 py-3">
+        <h2 class="text-white">Contacto</h2>
+        <p class="text-white">
+          Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto.
+        </p>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Nombre completo">
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Correo electrónico">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="5" cols="46" placeholder="Mensaje"></textarea>
+        </div>
+        <button type="submit" class="btn bg-orange text-white d-block">Enviar mensaje</button>
+      </form>
+    </section>
+
+    <footer class="container-fluid bg-black">
+      <h2>LOGO</h2>
+      <p>
+       Hecho con 🤍 de Antonio
+      </p>
+    </footer>
+  </main>
+
+</body>
+</html>

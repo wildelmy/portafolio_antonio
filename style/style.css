@@ -1,0 +1,60 @@
+nav {
+  background-color: #0F0E17;
+}
+.burger{
+  background-image: url("../img/mobile/icon-menu.svg") !important;
+}
+#welcome-section {
+  height: 80vh;
+  max-height: 500px;
+  color: white;
+  background-color: #0F0E17;
+}
+#welcome-section img{
+  max-width: 600px;
+  max-height: 600px;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
+.project-container {
+  height: 400px;
+  position: relative;
+}
+.project-container__img {
+  position: absolute;
+}
+.project-container__card {
+  position: absolute;
+  top: 130px;
+  /* left: 15px; */
+}
+
+#services, #form { 
+  background: linear-gradient(135deg, #FEB692 0%, #EA5455 100%);
+}
+#services ul {
+  list-style: none;
+}
+#services ul li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bg-orange,
+.btn-orange {
+  background-color: #FF8906;
+}
+.text-orange {
+  color: #FF8906;
+}
+.btn-outline-orange {
+  border: 2px solid #FF8906 !important;
+}
+
+.testimonial-name {
+  color: #F25F4C;
+}

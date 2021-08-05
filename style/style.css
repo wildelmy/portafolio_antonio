@@ -5,14 +5,16 @@ nav {
   background-image: url("../img/mobile/icon-menu.svg") !important;
 }
 #welcome-section {
-  height: 80vh;
+  min-height: 100vh;
   max-height: 500px;
   color: white;
   background-color: #0F0E17;
+  display: flex;
+  flex-direction: column;
 }
 #welcome-section img{
-  max-width: 600px;
-  max-height: 600px;
+  width: 300px;
+  height: 300px;
 }
 html {
   overflow-x: hidden;
@@ -20,17 +22,30 @@ html {
 body {
   overflow-x: hidden;
 }
-.project-container {
-  height: 400px;
-  position: relative;
+
+#niko {
+  background-image: url('../img/mobile/bg-3.png');
 }
-.project-container__img {
-  position: absolute;
+#principe {
+  background-image: url('../img/mobile/bg.png');
+  height: 400px;
+}
+#amazonas {
+  background-image: url('../img/mobile/bg-2.png');
+  height: 500px;
+}
+#niko, #principe, #amazonas {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.project-container {
+  position: relative;
 }
 .project-container__card {
   position: absolute;
-  top: 130px;
-  /* left: 15px; */
+  top: 220px;
+  min-width: 18rem;
 }
 
 #services, #form { 
@@ -57,4 +72,44 @@ body {
 
 .testimonial-name {
   color: #F25F4C;
+}
+
+
+#form form{
+  max-width: 600px;
+}
+
+@media only screen and (min-width: 768px) {
+  #welcome-section{
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    /* align-items: center; */
+  }
+  #welcome-section img{
+    width: 450px;
+    height: 450px;
+  }
+  #welcome-section .intro {
+    max-width: 500px;
+  }
+  #niko {
+    height: 460px;
+    background-image: url('../img/desktop/niko.png');
+    background-size: cover;
+    margin-bottom: 50px;
+  }
+  #principe {
+    background-image: url('../img/desktop/bg.png');
+    background-size: cover;
+    height: 500px;
+  }
+  #amazonas {
+    background-image: url('../img/desktop/bg-2.png');
+    background-size: cover;
+  }
+  .project-container__card {
+    position: absolute;
+    top: 25%;
+    width: 400px;
+  }
 }
